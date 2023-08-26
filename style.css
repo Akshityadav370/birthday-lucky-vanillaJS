@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Jost:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Sedgwick+Ave+Display&family=Varela+Round&display=swap");
+:root {
+  --primary-dark: #1f2937;
+  --primary-green: #6ee7b7;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+  /* align-items: center; */
+  margin: auto;
+  background-color: var(--primary-dark);
+  color: var(--primary-green);
+  margin-top: 25vh;
+  font-family: 'Jost', sans-serif;
+  font-size: 1rem;
+}
+input {
+  margin: 0.5rem;
+  /* max-width: 20vw; */
+  /* width: 10vw; */
+  background-color: transparent;
+  border: 1px solid var(--primary-green);
+  color: var(--primary-green);
+  padding: 0.3rem;
+}
+
+button {
+  margin: 0.5rem;
+  max-width: fit-content;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 1px solid var(--primary-green);
+  border-radius: 0.5rem;
+  color: var(--primary-green);
+  /* margin: auto; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  width: 20vw;
+}
+#output {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: azure;
+    margin-top: 3vh;
+}
